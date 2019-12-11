@@ -12,12 +12,12 @@ class FizzBuzz extends React.Component {
     };
   }
 
+  // sets the "Fizz", "Buzz", or "FizzBuzz"
   _fizzBuzzCheck(num) {
     let msg = '';
 
     if (num % 3 === 0) {
       msg = 'Fizz';
-      this.setState({fizzBuzz: 'Fizz'});
     }
 
     if (num % 5 === 0) {
@@ -27,6 +27,7 @@ class FizzBuzz extends React.Component {
     this.setState({fizzBuzz: msg});
   }
 
+  // decrement state counter
   _decrement() {
     // cannot decrement below 1
     if (this.state.counter > 1) {
@@ -35,6 +36,7 @@ class FizzBuzz extends React.Component {
     }
   }
 
+  // increment state counter
   _increment() {
     // cannot increment above 100
     if (this.state.counter < 100) {
