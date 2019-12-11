@@ -2,6 +2,8 @@
 
 A simple react application that display "Fizz" if a generated number is divisible by 3. Display "Buzz" if a generated number is divisible by 5, and finally display "FizzBuzz" if a generated number is divisbile by both 3 and 5.
 
+![Image of FizzBuzz App](https://github.com/celeneisip/FizzBuzz/blob/master/public/landing-page.PNG?raw=true)
+
 ## Dependecies
 - Download latest npm ( run `npm install` in a command line terminal)
 - React (https://reactjs.org/docs/getting-started.html)
